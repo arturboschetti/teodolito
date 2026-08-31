@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="data:;" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora do Teodolito</h1>
+    </header>
+    <main>
+      <div>
+        <input type="number" placeholder="Distancia" id="i1" />
+        <input type="number" placeholder="Angulo" id="i2" />
+        <input type="number" placeholder="Altura do Observador" id="i3" />
+        <button id="botao">Calcular Altura</button><br />
+        <h2>Altura Aproximda (Metros):</h2>
+        <h2 id="resposta"></h2>
+      </div>
+    </main>
+    <footer></footer>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./firebase.js"></script>
+  </body>
+</html>
